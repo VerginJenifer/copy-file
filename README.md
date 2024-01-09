@@ -18,6 +18,7 @@ Run the program.
 ### Step 6: 
 Display the output.
 ## PROGRAM:
+```
 def copy(filename,newfile):
     with open(filename,'r') as fp:
         with open(newfile,'w') as fp1:
@@ -26,6 +27,7 @@ def copy(filename,newfile):
 filename=input("Enter an Existing File:")
 newfile=input("Enter a name for new file:")
 copy(filename,newfile)
+```
 ### OUTPUT:
 
 ![image](https://github.com/VerginJenifer/copy-file/assets/136251012/61d0ad6e-726f-40f3-a333-ade9568d8dae)
